@@ -1,0 +1,78 @@
+/* CSS untuk halaman Admin */
+
+/* Style untuk navigasi halaman */
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+  border-radius: 3px;
+}
+
+a:hover {
+  background-color: #ddd;
+}
+
+a:active {
+  border: 1px solid #666;
+}
+
+/* Style untuk tabel */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style untuk form pencarian */
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"], button[type="submit"] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="text"] {
+  width: 70%;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Style untuk link tambah data admin */
+a[href="tambah.php"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+a[href="tambah.php"]:hover {
+  background-color: #3e8e41;
+}
